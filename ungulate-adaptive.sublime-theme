@@ -705,10 +705,24 @@
 		},
 		{
 			"class": "icon_file_type",
+			"layer0.tint": "var(icon_tint)",
 			"content_margin": [
 				8,
 				8
 			]
+		},
+		{
+			"class": "icon_file_type",
+			"parents": [
+				{
+					"class": "window",
+					"attributes": [
+						"file_light"
+					]
+				}
+			],
+			"layer0.tint": "color(var(icon_tint) saturation(0%))",
+			"layer0.opacity": 0.9
 		},
 		// Version Control
 		{
