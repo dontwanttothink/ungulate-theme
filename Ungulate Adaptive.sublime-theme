@@ -16,14 +16,16 @@
 		"link_fg": "hsl(215, 60%, 50%)",
 		"text_fg": "color(var(--foreground) saturation(10%))",
 		// Dividers
-		"adaptive_dividers": "color(var(--foreground) a(0.1))",
+		"adaptive_dividers": "color(var(--foreground) blend(var(--background) 15%))",
 		// Icons
 		"icon_tint": "color(var(--foreground) a(0.7))",
 		// Tabsets
 		"tabset_dark_bg": "var(dark_bg)",
 		"tabset_medium_dark_bg": "var(medium_dark_bg)",
 		"tabset_medium_bg": "var(medium_bg)",
-		"tabset_light_bg": "var(light_bg)"
+		"tabset_light_bg": "var(light_bg)",
+		// Components
+		"button_accent": "color(var(--background) blend(var(--accent) 65%))"
 	},
 	"rules": [
 		// Title Bar
@@ -2353,7 +2355,7 @@
 				60,
 				0
 			],
-			"layer0.tint": "var(--accent)",
+			"layer0.tint": "var(button_accent)",
 			"layer0.texture": "ungulate/assets/input-bg.png",
 			"layer0.inner_margin": [
 				10,
@@ -2683,7 +2685,7 @@
 					]
 				}
 			],
-			"color": "color(var(--foreground) min-contrast(var(--accent) 3))"
+			"color": "color(var(--foreground) min-contrast(var(button_accent) 3))"
 		},
 		{
 			"class": "title_label_control",
