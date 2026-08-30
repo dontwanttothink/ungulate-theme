@@ -1,4 +1,4 @@
-# Ungulate Theme
+# Ungulate Adaptive
 
 My adaptive theme for Sublime Text 4 based on Ayu.
 
@@ -15,7 +15,7 @@ The following custom settings are implemented:
 - `ui_separator`: enable or disable thin lines around UI elements
 - `ui_wide_scrollbars`: enable or disable wider scrollbars
 
-These settings are retained from Ayu.
+These settings are retained from Ayu. You set them in your `Preferences.sublime-settings`.
 
 Sublime Text's 'native' settings should also be supported, including `sidebar_on_right`, `show_tab_close_buttons_on_left`, `hide_tab_scrolling_buttons` and `themed_title_bar`.
 
