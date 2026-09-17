@@ -700,26 +700,10 @@
 			"class": "tabset_control",
 			"mouse_wheel_switch": false,
 			"tab_min_width": 50,
-			"tab_overlap": 0,
 			"tab_height": 38,
 			"tab_width": 100,
 			"layer0.opacity": 1,
-			"content_margin": [
-				10,
-				0
-			]
-		},
-		{
-			"class": "tabset_control",
-			"settings": [
-				"mouse_wheel_switches_tabs",
-				"!enable_tab_scrolling"
-			],
-			"mouse_wheel_switch": true
-		},
-		{
-			"class": "tabset_control",
-			"tab_overlap": 12,
+			"tab_overlap": 7,
 			"connector_height": 2,
 			"content_margin": [
 				0,
@@ -737,6 +721,14 @@
 			],
 			"layer1.opacity": 1
 		},
+		{
+			"class": "tabset_control",
+			"settings": [
+				"mouse_wheel_switches_tabs",
+				"!enable_tab_scrolling"
+			],
+			"mouse_wheel_switch": true
+		},
 		//
 		// Tabs
 		{
@@ -748,6 +740,15 @@
 		},
 		{
 			"class": "tab_control",
+			"layer0.texture": "ungulate/assets/tab-inverted.png",
+			"layer0.opacity": 1,
+			"layer0.tint": "var(medium_dark_bg)",
+			"layer0.inner_margin": [
+				9,
+				0,
+				9,
+				0,
+			],
 			"layer1.texture": "ungulate/assets/tab.png",
 			"layer1.inner_margin": [
 				9,
