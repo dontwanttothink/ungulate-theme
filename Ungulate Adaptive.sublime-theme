@@ -1,7 +1,7 @@
 {
 	"variables": {
 		// Background
-		"dark_bg": "color(var(--background) blend(white 85%))",
+		"dark_bg": "color(var(--background) blend(black 75%))",
 		"medium_dark_bg": "color(var(--background) blend(black 80%))",
 		"medium_bg": "color(var(--background) blend(black 90%))",
 		"light_bg": "color(var(--background) blend(black 99%))",
